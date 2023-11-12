@@ -1,17 +1,15 @@
 <template>
-  <Test />
   <Nav />
+  <div class="fixed top-0 left-0 w-96 p-6 overflow-scroll">
+    <Contents />
+  </div>
   <div class="flex justify-center pt-10">
     <div class="max-w-[70ch] w-full p-10">
       <NuxtPage />
     </div>
   </div>
 </template>
-<script setup>
-const colorMode = useColorMode();
-
-console.log(colorMode.preference);
-</script>
+<script setup></script>
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 * {

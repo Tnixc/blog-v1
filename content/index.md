@@ -1,8 +1,3 @@
 ---
-title: Introduction
-description: "meta description of the page"
+title: All Articles
 ---
-
-# Hello
-
-Full amount of content beyond the more divider.
