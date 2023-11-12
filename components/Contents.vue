@@ -1,8 +1,5 @@
 <template>
-  <main
-    class="flex flex-col gap-4 bg-neutral-200 border-neutral-300 p-6 rounded-xl border shadow-lg"
-  >
-    <nuxt-link to="/">
+    <!-- <nuxt-link to="/">
       <h1 class="text-gray-800 m-0 p-0">Tnixc's Blog</h1></nuxt-link
     >
     <ContentList path="/" v-slot="{ list }">
@@ -12,8 +9,8 @@
           <p class="m-0 p-0">{{ article.description }}</p>
         </nuxt-link>
       </div>
-    </ContentList>
-  </main>
+    </ContentList> -->
+
 </template>
 <style scoped>
 .dark main {

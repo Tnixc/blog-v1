@@ -1,10 +1,8 @@
 <template>
   <Nav />
-  <div class="fixed top-0 left-0 w-96 p-6 overflow-scroll">
-    <Contents />
-  </div>
+  <Contents />
   <div class="flex justify-center pt-10">
-    <div class="max-w-[70ch] w-full p-10">
+    <div class="max-w-[46rem] w-full p-10">
       <NuxtPage />
     </div>
   </div>
@@ -12,12 +10,11 @@
 <script setup></script>
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 * {
   transition: 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 18px;
 }
 .dark body {
@@ -30,6 +27,9 @@ code * {
 }
 pre {
   @apply bg-zinc-200 rounded-lg p-4;
+  overflow: auto;
+  overflow-wrap: break-word;
+  font-size: 14px;
 }
 .dark pre {
   @apply bg-zinc-800;
@@ -71,8 +71,22 @@ h6 {
   @apply text-base font-bold mb-2;
 }
 
-p {
-  @apply leading-normal mb-4 opacity-70 leading-8;
+p,
+ul,
+ol {
+  @apply leading-normal my-4 opacity-70 leading-8;
+}
+
+p code,
+ul code,
+ol code {
+  @apply bg-zinc-200 rounded-lg p-0.5 px-2;
+  font-size: 16px;
+}
+.dark p code,
+.dark ul code,
+.dark ol code {
+  @apply bg-zinc-700;
 }
 
 ul {
