@@ -12,4 +12,4 @@ A deep dive into why I chose nuxt over astro for writing this site. Written by c
 
 # [Example Article](/)
 
-This article will like back to this page.
+This article will link back to this page.

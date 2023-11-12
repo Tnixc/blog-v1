@@ -16,6 +16,12 @@
 body {
   font-size: 18px;
 }
+hr{
+  @apply border-zinc-300;
+}
+.dark hr{
+  @apply border-zinc-600;
+}
 .dark body {
   @apply bg-neutral-900 text-white;
 }
