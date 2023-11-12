@@ -9,27 +9,27 @@
 <script setup></script>
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 * {
   transition: 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 body {
   font-size: 18px;
 }
-hr{
+hr {
   @apply border-zinc-300;
 }
-.dark hr{
+.dark hr {
   @apply border-zinc-600;
 }
 .dark body {
   @apply bg-neutral-900 text-white;
 }
 a {
-  @apply underline text-blue-950
+  @apply underline text-blue-950;
 }
 .dark a {
-  @apply underline text-blue-300
+  @apply underline text-blue-300;
 }
 code,
 code * {
@@ -86,7 +86,14 @@ ul,
 ol {
   @apply leading-normal my-4 opacity-70 leading-8;
 }
-
+ul,
+ol {
+  @apply m-0;
+}
+div > ul > li,
+div > ol > li {
+  @apply pb-2;
+}
 p code,
 ul code,
 ol code {

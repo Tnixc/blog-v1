@@ -120,6 +120,7 @@ Create lists effortlessly:
 - Item 2
   - Subitem 1
   - Subitem 2
+- Item
 
 Enjoy the markdown journey with Nuxt.js!
 ```
