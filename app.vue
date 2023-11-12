@@ -84,7 +84,7 @@ h6 {
 p,
 ul,
 ol {
-  @apply my-4 opacity-70 leading-8;
+  @apply leading-normal my-4 opacity-70 leading-8;
 }
 ul,
 ol {
