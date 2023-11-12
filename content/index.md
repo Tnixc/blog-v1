@@ -11,3 +11,5 @@ Hi, you can learn more about me at [https://tnixc.space](https://tnixc.space)
 A deep dive into why I chose nuxt over astro for writing this site. Written by chatgpt.
 
 # [Example Article](/)
+
+This article will like back to this page.

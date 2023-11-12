@@ -2,7 +2,7 @@
 
 # Nuxt > Astro?
 
-Written on 12/11/2023 by ChatGPT. I have not read this.
+A sample article written on 12/11/2023 by ChatGPT. I have not read this.
 
 ---
 

@@ -60,19 +60,19 @@ h2 {
 }
 
 h3 {
-  @apply text-2xl font-bold mb-2 mt-4 opacity-80;
+  @apply text-2xl font-bold mb-2 mt-5 opacity-80;
 }
 
 h4 {
-  @apply text-xl font-bold mb-2 mt-2 opacity-80;
+  @apply text-xl font-bold mb-2 mt-3 opacity-80;
 }
 
 h5 {
-  @apply text-lg font-bold mb-2 opacity-80;
+  @apply text-lg font-bold mb-2 mt-3 opacity-80;
 }
 
 h6 {
-  @apply text-base font-bold mb-2 opacity-80;
+  @apply text-base font-bold mb-2 mt-3 opacity-80;
 }
 
 p,
