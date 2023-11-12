@@ -1,6 +1,5 @@
 <template>
   <Nav />
-  <Contents />
   <div class="flex justify-center pt-10">
     <div class="max-w-[46rem] w-full p-10">
       <NuxtPage />
@@ -20,7 +19,12 @@ body {
 .dark body {
   @apply bg-neutral-900 text-white;
 }
-
+a {
+  @apply underline text-blue-950
+}
+.dark a {
+  @apply underline text-blue-300
+}
 code,
 code * {
   font-family: "Fira Code", monospace;
@@ -52,23 +56,23 @@ h1 {
 }
 
 h2 {
-  @apply text-3xl font-bold mb-3 mt-6;
+  @apply text-3xl font-bold mb-3 mt-6 opacity-80;
 }
 
 h3 {
-  @apply text-2xl font-bold mb-2 mt-4;
+  @apply text-2xl font-bold mb-2 mt-4 opacity-80;
 }
 
 h4 {
-  @apply text-xl font-bold mb-2 mt-2;
+  @apply text-xl font-bold mb-2 mt-2 opacity-80;
 }
 
 h5 {
-  @apply text-lg font-bold mb-2;
+  @apply text-lg font-bold mb-2 opacity-80;
 }
 
 h6 {
-  @apply text-base font-bold mb-2;
+  @apply text-base font-bold mb-2 opacity-80;
 }
 
 p,

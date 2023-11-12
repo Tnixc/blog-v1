@@ -1,12 +1,12 @@
 <template>
   <nav
-    class="sticky top-0 left-0 right-0 flex items-center justify-end p-6 z-50"
+    class="sticky top-0 left-0 right-0 flex items-center lg:p-6 z-50 gap-4 p-4"
   >
     <nuxt-link
       to="/"
-      class="aspect-square rounded-lg shadow-lg border border-gray-400/30 bg-gray-500/10 ml-0 mr-auto"
+      class="aspect-square rounded-lg shadow-lg border border-gray-400/30 bg-gray-500/10 ml-0 mr-auto backdrop-blur-lg"
       ><svg
-        class="w-12 p-2"
+        class="w-12 p-2 fill-current"
         xmlns="http://www.w3.org/2000/svg"
         width="48"
         height="48"
@@ -17,7 +17,7 @@
           d="M218.83,103.77l-80-75.48a1.14,1.14,0,0,1-.11-.11,16,16,0,0,0-21.53,0l-.11.11L37.17,103.77A16,16,0,0,0,32,115.55V208a16,16,0,0,0,16,16H96a16,16,0,0,0,16-16V160h32v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V115.55A16,16,0,0,0,218.83,103.77ZM208,208H160V160a16,16,0,0,0-16-16H112a16,16,0,0,0-16,16v48H48V115.55l.11-.1L128,40l79.9,75.43.11.1Z"
         ></path></svg
     ></nuxt-link>
-    <div class="flex gap-6 backdrop-blur-lg rounded-xl">
+    <div class="flex gap-4 backdrop-blur-lg rounded-xl">
       <div
         class="flex bg-gray-500/10 rounded-[9px] border border-gray-400/30 gap-2 shadow-lg"
       >
@@ -46,7 +46,7 @@
           @click="$colorMode.preference = 'system'"
         >
           <svg
-            class="fill-[currentColor] py-3 h-full aspect-square"
+            class="fill-current py-3 h-full aspect-square"
             xmlns="http://www.w3.org/2000/svg"
             width="48"
             height="48"
@@ -68,7 +68,7 @@
             @click="$colorMode.preference = 'light'"
           >
             <svg
-              class="fill-[currentColor] py-3 h-full aspect-square"
+              class="fill-current py-3 h-full aspect-square"
               xmlns="http://www.w3.org/2000/svg"
               width="48"
               height="48"
@@ -82,7 +82,7 @@
           </button>
           <button class="aspect-square" @click="$colorMode.preference = 'dark'">
             <svg
-              class="fill-[currentColor] py-3 h-full aspect-square"
+              class="fill-current py-3 h-full aspect-square"
               xmlns="http://www.w3.org/2000/svg"
               width="48"
               height="48"
