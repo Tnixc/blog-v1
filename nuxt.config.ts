@@ -12,9 +12,9 @@ export default defineNuxtConfig({
     highlight: {
       preload: ["java", "python", "css", "scss", "ts", "js", "vue"],
       theme: {
-        default: "github-light",
-        light: "github-light",
-        dark: "github-dark",
+        default: "vitesse-light",
+        light: "vitesse-light",
+        dark: "vitesse-dark",
       },
     },
   },
