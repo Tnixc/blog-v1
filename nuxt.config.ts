@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   modules: ["@nuxt/content", "@nuxtjs/tailwindcss", "@nuxtjs/color-mode"],
   colorMode: {
-    classSuffix: ''
+    classSuffix: "",
   },
   content: {
     markdown: {

@@ -2,7 +2,7 @@
   <nav
     class="sticky top-0 left-0 right-0 flex items-center justify-between p-5"
   >
-    <nuxt-link to="/" class="p-2 text-xl">Home</nuxt-link>
+    <nuxt-link to="/" class="p-2 text-xl"> Index </nuxt-link>
     <div
       class="flex bg-blue-500/10 rounded-[9px] border border-blue-400/30 gap-2"
     >
@@ -59,7 +59,7 @@
       </div>
     </div>
   </nav>
-  <div class="flex justify-center pt-20">
+  <div class="flex justify-center pt-10">
     <div class="max-w-[70ch] w-full p-10">
       <NuxtPage />
     </div>
@@ -90,7 +90,7 @@ body {
 
 .light #sel {
   transform: translateX(0%);
-  @apply bg-slate-200
+  @apply bg-slate-200;
 }
 .dark #sel {
   transform: translateX(100%);
