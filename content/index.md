@@ -4,10 +4,10 @@ Hi, you can learn more about me at [https://tnixc.space](https://tnixc.space)
 
 ---
 
-# [Nuxt > Astro?](/nuxt)
+# [How I do UI](/ui-rules)
 
 2 min read. 12/11/2023
 
-A deep dive into why I chose nuxt over astro for writing this site. Written by chatgpt.
+A set of guidelines I (try) to stick to when doing user interfaces.
 
 ---

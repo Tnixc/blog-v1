@@ -92,7 +92,7 @@ ol {
 .dark p,
 .dark ul,
 .dark ol {
-  @apply py-4 leading-8 text-zinc-400;
+  @apply pb-4 leading-8 text-zinc-400;
 }
 ul,
 ol {
@@ -123,9 +123,11 @@ ol {
 }
 
 blockquote {
-  @apply border-l-4 pl-4 italic;
+  @apply border-l-4 pt-4 pl-4 italic mt-4 bg-slate-500/10 mb-4 rounded-r-lg;
 }
-
+img{
+  @apply rounded-lg shadow-md;
+}
 em {
   @apply italic;
 }
