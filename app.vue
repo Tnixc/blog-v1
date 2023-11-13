@@ -1,7 +1,7 @@
 <template>
   <Nav />
   <div class="flex justify-center pt-10">
-    <div class="max-w-[46rem] w-full p-10">
+    <div class="w-full max-w-[46rem] p-10">
       <NuxtPage />
     </div>
   </div>
@@ -26,17 +26,17 @@ hr {
   @apply bg-neutral-900 text-white;
 }
 a {
-  @apply underline text-blue-900 opacity-100;
+  @apply text-blue-900 underline opacity-100;
 }
 .dark a {
-  @apply underline text-blue-300;
+  @apply text-blue-300 underline;
 }
 code,
 code * {
   font-family: "Fira Code", monospace;
 }
 pre {
-  @apply bg-zinc-200 rounded-lg p-4 mb-8;
+  @apply mb-8 rounded-lg bg-zinc-200 p-4;
   overflow: auto;
   font-size: 14px;
 }
@@ -44,11 +44,11 @@ pre {
   @apply bg-zinc-800;
 }
 table {
-  @apply min-w-full rounded-lg overflow-hidden py-5 pb-10;
+  @apply min-w-full overflow-hidden rounded-lg py-5 pb-10;
 }
 table th,
 table td {
-  @apply p-2 border border-gray-200;
+  @apply border border-gray-200 p-2;
 }
 
 .dark table th,
@@ -57,7 +57,7 @@ table td {
 }
 
 h1 {
-  @apply text-4xl font-bold pb-2 pt-8;
+  @apply pb-2 pt-8 text-4xl font-bold;
 }
 h1 > a,
 .dark h1 > a {
@@ -65,23 +65,23 @@ h1 > a,
 }
 
 h2 {
-  @apply text-3xl font-bold pb-2 pt-6 opacity-80;
+  @apply pb-2 pt-6 text-3xl font-bold opacity-80;
 }
 
 h3 {
-  @apply text-2xl font-bold pb-2 pt-5 opacity-80;
+  @apply pb-2 pt-5 text-2xl font-bold opacity-80;
 }
 
 h4 {
-  @apply text-xl font-bold pb-2 pt-3 opacity-80;
+  @apply pb-2 pt-3 text-xl font-bold opacity-80;
 }
 
 h5 {
-  @apply text-lg font-bold pb-2 pt-3 opacity-80;
+  @apply pb-2 pt-3 text-lg font-bold opacity-80;
 }
 
 h6 {
-  @apply text-base font-bold pb-2 pt-3 opacity-80;
+  @apply pb-2 pt-3 text-base font-bold opacity-80;
 }
 
 p,
@@ -105,7 +105,7 @@ div > ol > li {
 p code,
 ul code,
 ol code {
-  @apply bg-zinc-200 rounded-lg p-0.5 px-2;
+  @apply rounded-lg bg-zinc-200 p-0.5 px-2;
   font-size: 16px;
 }
 .dark p code,
@@ -115,17 +115,17 @@ ol code {
 }
 
 ul {
-  @apply list-disc ml-6 pb-4;
+  @apply ml-6 list-disc pb-4;
 }
 
 ol {
-  @apply list-decimal ml-6 pb-4;
+  @apply ml-6 list-decimal pb-4;
 }
 
 blockquote {
-  @apply border-l-4 pt-4 pl-4 italic mt-4 bg-slate-500/10 mb-4 rounded-r-lg;
+  @apply mb-4 mt-4 rounded-r-lg border-l-4 bg-slate-500/10 pl-4 pt-4 italic;
 }
-img{
+img {
   @apply rounded-lg shadow-md;
 }
 em {

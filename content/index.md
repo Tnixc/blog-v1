@@ -4,7 +4,7 @@ Hi, you can learn more about me at [https://tnixc.space](https://tnixc.space)
 
 @tnixc on discord
 
-[@_Tnixc on twitter](https://twitter.com/_Tnixc)
+[@\_Tnixc on twitter](https://twitter.com/_Tnixc)
 
 ---
 

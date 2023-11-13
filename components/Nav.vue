@@ -1,9 +1,9 @@
 <template>
   <nuxt-link
     to="/"
-    class="fixed lg:top-6 lg:left-6 top-4 left-4 aspect-square rounded-lg shadow-lg border border-gray-400/30 bg-gray-500/10 ml-0 mr-auto backdrop-blur-lg"
+    class="fixed left-4 top-4 ml-0 mr-auto aspect-square rounded-lg border border-gray-400/30 bg-gray-500/10 shadow-lg backdrop-blur-lg lg:left-6 lg:top-6"
     ><svg
-      class="w-12 p-2 fill-current"
+      class="w-12 fill-current p-2"
       xmlns="http://www.w3.org/2000/svg"
       width="48"
       height="48"
@@ -15,15 +15,15 @@
       ></path>
     </svg>
   </nuxt-link>
-  <div class="fixed top-0 right-0 flex items-center lg:p-6 z-50 gap-4 p-4">
-    <div class="flex gap-4 backdrop-blur-lg rounded-xl">
+  <div class="fixed right-0 top-0 z-50 flex items-center gap-4 p-4 lg:p-6">
+    <div class="flex gap-4 rounded-xl backdrop-blur-lg">
       <div
-        class="flex bg-gray-500/10 rounded-[9px] border border-gray-400/30 gap-2 shadow-lg"
+        class="flex gap-2 rounded-[9px] border border-gray-400/30 bg-gray-500/10 shadow-lg"
       >
-        <div class="flex relative">
+        <div class="relative flex">
           <div
             id="font"
-            class="absolute left-0 top-0 w-1/2 h-full rounded-lg -z-10"
+            class="absolute left-0 top-0 -z-10 h-full w-1/2 rounded-lg"
           ></div>
           <button class="aspect-square w-12 font-sans" id="serif" @click="sans">
             Aa
@@ -38,14 +38,14 @@
         </div>
       </div>
       <div
-        class="flex bg-gray-500/10 rounded-[9px] border border-gray-400/30 gap-2 shadow-lg"
+        class="flex gap-2 rounded-[9px] border border-gray-400/30 bg-gray-500/10 shadow-lg"
       >
         <button
-          class="aspect-square border-r rounded-lg border-gray-400/30 bg-gray-500/10 shadow-md"
+          class="aspect-square rounded-lg border-r border-gray-400/30 bg-gray-500/10 shadow-md"
           @click="$colorMode.preference = 'system'"
         >
           <svg
-            class="fill-current py-3 h-full aspect-square"
+            class="aspect-square h-full fill-current py-3"
             xmlns="http://www.w3.org/2000/svg"
             width="48"
             height="48"
@@ -57,17 +57,17 @@
             ></path>
           </svg>
         </button>
-        <div class="flex relative">
+        <div class="relative flex">
           <div
             id="sel"
-            class="absolute left-0 top-0 w-1/2 h-full rounded-lg -z-10"
+            class="absolute left-0 top-0 -z-10 h-full w-1/2 rounded-lg"
           ></div>
           <button
             class="aspect-square"
             @click="$colorMode.preference = 'light'"
           >
             <svg
-              class="fill-current py-3 h-full aspect-square"
+              class="aspect-square h-full fill-current py-3"
               xmlns="http://www.w3.org/2000/svg"
               width="48"
               height="48"
@@ -81,7 +81,7 @@
           </button>
           <button class="aspect-square" @click="$colorMode.preference = 'dark'">
             <svg
-              class="fill-current py-3 h-full aspect-square"
+              class="aspect-square h-full fill-current py-3"
               xmlns="http://www.w3.org/2000/svg"
               width="48"
               height="48"

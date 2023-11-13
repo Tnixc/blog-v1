@@ -25,7 +25,7 @@ Make sure you have a system for the font size of all the header elements, paragr
 
 # 4. Use Tailwind
 
-> "Tailwind isn't just a faster way to write CSS; it's a design system." 
+> "Tailwind isn't just a faster way to write CSS; it's a design system."
 > \- Theo @t3.gg
 
 Yeah, just do that. It provides all the things above in a way that's easy to use. It's easier. You don't have to jump around everywhere. Tailwind is highly customizable. You can configure your design system (colors, spacing, typography, etc.) directly in the Tailwind configuration file. It also provides a powerful mobile-first grid system with built-in responsive variants. But you don't need me to tell you why Tailwind is so good, just go to [tailwindcss.com](https://tailwindcss.com)
