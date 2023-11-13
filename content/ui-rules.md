@@ -8,9 +8,11 @@ Written by Tnixc on 12/11/2023
 
 # 1. Do not use margins
 
-Margin collapse is terrible. It’s extremely intuitive. I usually add more padding elements rather than using margin, just because you can run into issues like margin collapse.
+Margin collapse is terrible. It’s extremely unintuitive. I usually add more padding elements rather than using margin, just because you can run into issues like margin collapse.
 
 With things like gap and more padding elements, you really don’t need to use to margins.
+
+See here: https://www.joshwcomeau.com/css/rules-of-margin-collapse/
 
 # 2. Stick to a color scheme
 
