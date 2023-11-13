@@ -60,7 +60,8 @@ table td {
 h1 {
   @apply text-4xl font-bold mb-4 mt-8;
 }
-h1 > a,.dark h1 > a{
+h1 > a,
+.dark h1 > a {
   @apply no-underline;
 }
 
