@@ -26,7 +26,7 @@ hr {
   @apply bg-neutral-900 text-white;
 }
 a {
-  @apply underline text-blue-950;
+  @apply underline text-blue-900 opacity-100;
 }
 .dark a {
   @apply underline text-blue-300;
@@ -60,6 +60,9 @@ table td {
 h1 {
   @apply text-4xl font-bold mb-4 mt-8;
 }
+h1 > a,.dark h1 > a{
+  @apply no-underline;
+}
 
 h2 {
   @apply text-3xl font-bold mb-3 mt-6 opacity-80;
@@ -84,7 +87,12 @@ h6 {
 p,
 ul,
 ol {
-  @apply leading-normal my-4 opacity-70 leading-8;
+  @apply my-4 leading-8 text-zinc-600;
+}
+.dark p,
+.dark ul,
+.dark ol {
+  @apply my-4 leading-8 text-zinc-400;
 }
 ul,
 ol {
