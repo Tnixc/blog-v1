@@ -36,16 +36,15 @@ code * {
   font-family: "Fira Code", monospace;
 }
 pre {
-  @apply bg-zinc-200 rounded-lg p-4;
+  @apply bg-zinc-200 rounded-lg p-4 mb-8;
   overflow: auto;
-  overflow-wrap: break-word;
   font-size: 14px;
 }
 .dark pre {
   @apply bg-zinc-800;
 }
 table {
-  @apply min-w-full rounded-lg overflow-hidden my-5 mb-10;
+  @apply min-w-full rounded-lg overflow-hidden py-5 pb-10;
 }
 table th,
 table td {
@@ -58,7 +57,7 @@ table td {
 }
 
 h1 {
-  @apply text-4xl font-bold mb-4 mt-8;
+  @apply text-4xl font-bold pb-2 pt-8;
 }
 h1 > a,
 .dark h1 > a {
@@ -66,34 +65,34 @@ h1 > a,
 }
 
 h2 {
-  @apply text-3xl font-bold mb-3 mt-6 opacity-80;
+  @apply text-3xl font-bold pb-2 pt-6 opacity-80;
 }
 
 h3 {
-  @apply text-2xl font-bold mb-2 mt-5 opacity-80;
+  @apply text-2xl font-bold pb-2 pt-5 opacity-80;
 }
 
 h4 {
-  @apply text-xl font-bold mb-2 mt-3 opacity-80;
+  @apply text-xl font-bold pb-2 pt-3 opacity-80;
 }
 
 h5 {
-  @apply text-lg font-bold mb-2 mt-3 opacity-80;
+  @apply text-lg font-bold pb-2 pt-3 opacity-80;
 }
 
 h6 {
-  @apply text-base font-bold mb-2 mt-3 opacity-80;
+  @apply text-base font-bold pb-2 pt-3 opacity-80;
 }
 
 p,
 ul,
 ol {
-  @apply my-4 leading-8 text-zinc-600;
+  @apply pb-4 leading-8 text-zinc-600;
 }
 .dark p,
 .dark ul,
 .dark ol {
-  @apply my-4 leading-8 text-zinc-400;
+  @apply py-4 leading-8 text-zinc-400;
 }
 ul,
 ol {
@@ -116,11 +115,11 @@ ol code {
 }
 
 ul {
-  @apply list-disc ml-6 mb-4;
+  @apply list-disc ml-6 pb-4;
 }
 
 ol {
-  @apply list-decimal ml-6 mb-4;
+  @apply list-decimal ml-6 pb-4;
 }
 
 blockquote {
