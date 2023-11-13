@@ -2,6 +2,10 @@
 
 Hi, you can learn more about me at [https://tnixc.space](https://tnixc.space)
 
+@tnixc on discord
+
+[@_Tnixc on twitter](https://twitter.com/_Tnixc)
+
 ---
 
 # [How I do UI](/ui-rules)
